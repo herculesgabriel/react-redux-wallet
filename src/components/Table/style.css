@@ -1,0 +1,13 @@
+table, th, td {
+  border: 2px solid white;
+  border-spacing: 0px;
+  text-align: center;
+}
+
+th, td {
+  padding: 5px;
+}
+
+.table_button {
+  margin: 0 5px;
+}

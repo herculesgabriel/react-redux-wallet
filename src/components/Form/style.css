@@ -1,0 +1,37 @@
+form {
+  display: flex;
+}
+
+input,
+select,
+button {
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  border-width: 0;
+  font-family: Ubuntu;
+  font-size: 1.1em;
+  background-color: aliceblue;
+  outline-color: rgb(149, 203, 250);
+}
+
+button {
+  background-color: rgb(149, 203, 250);
+  color: white;
+}
+
+.description {
+  flex-grow: 1;
+}
+
+.edit-mode input, .edit-mode select {
+  background-color: rgb(98, 148, 96);
+  color: white;
+  outline-color: white;
+}
+
+.edit-mode input::placeholder {
+  color: white;
+  opacity: 1;
+}
